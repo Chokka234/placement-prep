@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.*.local
+
+# Build outputs
+/client/build/
+/server/build/
+/dist/
+/build/
+/coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log

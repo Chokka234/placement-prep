@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What will be the output of: print(2 ** 3 ** 2) in Python?",
+    "options": ["512", "64", "16", "256"],
+    "answer": "512"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is NOT a valid variable name in Python?",
+    "options": ["_value", "value1", "1value", "value_2"],
+    "answer": "1value"
+  },
+  {
+    "id": 3,
+    "question": "Which keyword is used for function definition in Python?",
+    "options": ["define", "def", "func", "lambda"],
+    "answer": "def"
+  },
+  {
+    "id": 4,
+    "question": "What is the default return type of a function that does not return anything explicitly?",
+    "options": ["0", "None", "False", "Empty string"],
+    "answer": "None"
+  },
+  {
+    "id": 5,
+    "question": "Which operator is used for floor division in Python?",
+    "options": ["/", "//", "%", "**"],
+    "answer": "//"
+  },
+  {
+    "id": 6,
+    "question": "What will be the output of: bool('False')?",
+    "options": ["False", "True", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "id": 7,
+    "question": "Which data structure does Python’s 'set' use internally?",
+    "options": ["List", "Dictionary", "Hash table", "Tuple"],
+    "answer": "Hash table"
+  },
+  {
+    "id": 8,
+    "question": "What does len([[]]) return?",
+    "options": ["0", "1", "2", "Error"],
+    "answer": "1"
+  },
+  {
+    "id": 9,
+    "question": "Which module in Python is used for regular expressions?",
+    "options": ["regex", "re", "pyregex", "string"],
+    "answer": "re"
+  },
+  {
+    "id": 10,
+    "question": "Which keyword is used to handle exceptions in Python?",
+    "options": ["try", "catch", "handle", "except"],
+    "answer": "except"
+  }
+]

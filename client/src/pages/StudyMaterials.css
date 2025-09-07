@@ -1,0 +1,72 @@
+.card-section {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.card-section:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Custom Shadows */
+.pink-shadow {
+  box-shadow: 0px 0px 12px rgba(244, 114, 182, 0.6);
+}
+.pink-shadow:hover {
+  box-shadow: 0px 0px 25px rgba(244, 114, 182, 0.9);
+}
+
+.yellow-shadow {
+  box-shadow: 0px 0px 12px rgba(250, 204, 21, 0.6);
+}
+.yellow-shadow:hover {
+  box-shadow: 0px 0px 25px rgba(250, 204, 21, 0.9);
+}
+
+.green-shadow {
+  box-shadow: 0px 0px 12px rgba(52, 211, 153, 0.6);
+}
+.green-shadow:hover {
+  box-shadow: 0px 0px 25px rgba(52, 211, 153, 0.9);
+}
+
+.purple-shadow {
+  box-shadow: 0px 0px 12px rgba(167, 139, 250, 0.6);
+}
+.purple-shadow:hover {
+  box-shadow: 0px 0px 25px rgba(167, 139, 250, 0.9);
+}
+
+.blue-shadow {
+  box-shadow: 0px 0px 12px rgba(56, 189, 248, 0.6);
+}
+.blue-shadow:hover {
+  box-shadow: 0px 0px 25px rgba(56, 189, 248, 0.9);
+}
+
+/* Footer Tagline with Shining Effect */
+.footer-tagline {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #facc15, #f472b6, #38bdf8, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.7),
+    0px 0px 20px rgba(255, 255, 255, 0.6);
+  animation: shineText 3s linear infinite;
+}
+
+@keyframes shineText {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}

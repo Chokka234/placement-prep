@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Which data structure uses FIFO (First In, First Out) principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "id": 2,
+    "question": "What is the time complexity of searching in a balanced binary search tree?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(log n)"
+  },
+  {
+    "id": 3,
+    "question": "Which Python data type is best suited for implementing a stack?",
+    "options": ["list", "dict", "set", "tuple"],
+    "answer": "list"
+  },
+  {
+    "id": 4,
+    "question": "What is the default data structure used by Python’s collections.deque?",
+    "options": ["Stack", "Queue", "Doubly Linked List", "Array"],
+    "answer": "Doubly Linked List"
+  },
+  {
+    "id": 5,
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": ["Bubble Sort", "Quick Sort", "Merge Sort", "Insertion Sort"],
+    "answer": "Merge Sort"
+  },
+  {
+    "id": 6,
+    "question": "Which Python module provides built-in support for heaps?",
+    "options": ["heapq", "queue", "collections", "functools"],
+    "answer": "heapq"
+  },
+  {
+    "id": 7,
+    "question": "What is the time complexity of accessing an element in a Python dictionary?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "id": 8,
+    "question": "Which traversal method visits the left subtree, root, and then the right subtree?",
+    "options": ["Preorder", "Inorder", "Postorder", "Level Order"],
+    "answer": "Inorder"
+  },
+  {
+    "id": 9,
+    "question": "What is the space complexity of Depth First Search (DFS) using recursion?",
+    "options": ["O(1)", "O(h)", "O(n)", "O(log n)"],
+    "answer": "O(h)"
+  },
+  {
+    "id": 10,
+    "question": "Which data structure is used in the implementation of function call stack in Python?",
+    "options": ["Queue", "Stack", "Heap", "Graph"],
+    "answer": "Stack"
+  }
+]
